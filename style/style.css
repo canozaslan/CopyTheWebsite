@@ -1,0 +1,315 @@
+/*reset default html*/
+body,
+html {
+  height: 100%;
+  margin: 0px;
+  font-family: "Oswald", sans-serif;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("/3.hafta/odev/style/mainimage.jpg");
+  height: 750px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-text {
+  top: 60%;
+}
+
+.hero-text button {
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 5px 17px 5px 17px;
+  right: 43%;
+  top: 250px;
+}
+
+.hero-text button:hover {
+  background-color: white;
+  color: black;
+}
+#sidebar {
+  padding-left: 90%;
+  top: 40%;
+}
+
+#sidebar a:hover {
+  color: white;
+}
+
+.navbar-nav {
+  font-size: 13px;
+}
+.nav-item {
+  margin-left: 43px;
+  padding-right: 16px;
+}
+.main-head {
+  letter-spacing: 0.25em;
+  line-height: 0cm;
+  display: inline-block;
+}
+.navbar-brand {
+  font-size: 18px;
+  letter-spacing: 0.1cm;
+  line-height: 0cm;
+}
+#navbarSupportedContent {
+  right: 2%;
+}
+.brand {
+  height: 100px;
+  width: 150px;
+  background-color: rgba(0, 0, 0, 0.58);
+  padding-top: 27px;
+  padding-left: 15px;
+  margin-left: 62px;
+}
+.main-header {
+  padding-bottom: 10px;
+  font-size: 50px;
+  line-height: 2.3cm;
+  font-weight: 700;
+  letter-spacing: 20px;
+}
+
+.introduction {
+  font-size: 17px;
+  margin: 12px 0px 12px 0px;
+  letter-spacing: 0.25em;
+  line-height: 0.7cm;
+  font-weight: 600;
+}
+
+.insta {
+  height: 330px;
+}
+.face {
+  height: 145px;
+}
+.vlog {
+  height: 475px;
+}
+
+.hero-image-insta {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("/3.hafta/odev/style/insta.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-image-insta a {
+  font-size: 20px;
+  letter-spacing: 0.05em;
+}
+
+.hero-text-insta {
+  top: 57%;
+}
+
+.hero-image-face {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/3.hafta/odev/style/face.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-image-vlog {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("/3.hafta/odev/style/vlog.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-row {
+  margin-left: 50px;
+  margin-right: 40px;
+}
+
+.explanation {
+  padding-top: 40px;
+  padding-bottom: 70px;
+  font-weight: 200;
+}
+
+.explanation,
+.explanation h3 {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.15cm;
+}
+
+::placeholder {
+  color: black;
+  font-size: 14px;
+}
+
+.hero-image-form {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/3.hafta/odev/style/formm.png");
+  height: 850px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-text-form {
+  top: 24%;
+}
+
+.hero-text-form h4 {
+  font-size: 42px;
+  letter-spacing: 0.1cm;
+  padding-bottom: 30px;
+}
+
+hr {
+  width: 40px;
+  margin-left: 40%;
+  height: 2em;
+}
+
+#contact a:hover {
+  color: white;
+}
+
+#contact h4,
+p,
+a {
+  font-weight: 400;
+}
+
+input[type="text"],
+textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  resize: vertical;
+}
+
+input[type="text"] {
+  height: 20px;
+}
+
+input[type="submit"] {
+  background-color: black;
+  padding: 12px 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  cursor: pointer;
+  left: 37%;
+  top: 92%;
+}
+
+.container {
+  border-radius: 5px;
+  max-width: 450px;
+  padding: 20px 20px 20px 20px;
+  padding-top: 28%;
+  position: relative;
+}
+
+.partners {
+  height: 310px;
+  padding-top: 25px;
+}
+
+.partners h5 {
+  font-size: 32px;
+  letter-spacing: 0.2cm;
+}
+
+footer {
+  background-color: #f0f0f0;
+  color: black;
+  padding-top: 10px;
+}
+
+.footer-headers {
+  padding-right: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.footer-select {
+  padding-bottom: 20px;
+}
+
+footer h6 {
+  font-size: 13px;
+  font-weight: 100;
+}
+
+.form-select {
+  width: 150px;
+  border-radius: 0px;
+  left: 44%;
+  background-color: #f0f0f0;
+}
+select:hover {
+  background-color: white;
+}
+select:focus {
+  outline: none;
+}
+
+.space {
+  height: 100px;
+}
+
+@media screen and (max-width: 992px) {
+  #navbarSupportedContent {
+    position: relative;
+    left: 70%;
+    top: 10%;
+  }
+
+}
+
+@media screen and (max-width: 1092px) {
+  .container{
+    padding-top: 48%;
+  }
+}
+
+@media screen and (max-width: 652px) {
+  .container{
+    padding-top: 68%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .footer-headers{
+    text-align: center;
+  }
+  .main-header{
+    letter-spacing: 5px;
+  }
+  .brand{
+    margin-left: 5px;
+  }
+  .container{
+    padding-top: 95%;
+  }
+  input[type=submit]{
+    left: 34%;
+  }
+}
